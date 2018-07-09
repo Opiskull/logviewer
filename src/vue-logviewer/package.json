@@ -1,0 +1,22 @@
+{
+  "name": "vue-logviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "parcel-bundler": "^1.9.4",
+    "typescript": "^2.9.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
