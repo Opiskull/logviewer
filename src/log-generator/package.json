@@ -1,0 +1,18 @@
+{
+  "name": "log-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "faker": "^4.1.0"
+  },
+  "bin": {
+    "test-data-generator": "./index.js"
+  }
+}
