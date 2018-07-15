@@ -1,14 +1,11 @@
 import Vuex, { StoreOptions } from "vuex";
 import { AppState } from "./app-state";
 
-const items: string[] = [];
-for (let index = 0; index < 10; index++) {
-  items.push("test blablabla");
-}
+import TestData from "../test-data.json";
 
 export default new Vuex.Store<AppState>({
   state: {
-    entries: items
+    entries: TestData.logs
   },
   mutations: {
     addLog(state: AppState, log: string) {
