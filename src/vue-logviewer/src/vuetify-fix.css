@@ -1,0 +1,12 @@
+
+
+.v-menu__activator {
+    height: auto;
+  }
+  
+  .v-text-field__slot {
+    height: auto;
+  }
+.v-select__slot{
+  height: auto;
+}
