@@ -68,10 +68,15 @@ program
     "-c, --count <count>",
     "How many messages should be created (default:100)"
   )
-  .option("-l, --locale <locale>", "What language should be used (default:'en')")
+  .option(
+    "-l, --locale <locale>",
+    "What language should be used (default:'en')"
+  )
   .action(type => {
     if (!isValidInputType(type)) {
-      console.error("An invalid type has been found. Please provide a valid type from 'list'");
+      console.error(
+        "An invalid type has been found. Please provide a valid type from 'list'"
+      );
       process.exit(1);
     }
 

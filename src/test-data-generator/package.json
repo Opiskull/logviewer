@@ -14,5 +14,8 @@
   },
   "bin": {
     "test-data-generator": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0"
   }
 }
